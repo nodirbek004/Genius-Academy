@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="container">
+    <div class="register-box">
+        <h1 class="register-title">Kurslar haqida ma'lumot olish uchun o'zingiz haqida ma'lumot qoldiring</h1>
+        <form action="/" method="post" class="register-form">
+            <div class="input-group">
+                <label>Familiya <span>*</span></label>
+                <input type="text" placeholder="Familiyangiz" required />
+            </div>
+
+            <div class="input-group">
+                <label>Ism <span>*</span></label>
+                <input type="text" placeholder="Ismingiz" required />
+            </div>
+
+            <div class="input-group">
+                <label>Telefon <span>*</span></label>
+                <input type="text" value="+998" placeholder="+998991234567" required />
+            </div>
+            <button class="register-btn form-btn">Yuborish</button>
+        </form>
+    </div>
+</div>
